@@ -13,7 +13,7 @@ app = FastAPI()
 # =============================
 # Настройки
 # =============================
-YANDEX_API_KEY = "os.getenv("YANDEX_API_KEY")"
+YANDEX_API_KEY = os.getenv("YANDEX_API_KEY")
 FOLDER_ID = "b1gj8gdme1f9bbsk0vgh"
 YANDEX_URL = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
 
